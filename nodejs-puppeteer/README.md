@@ -66,7 +66,7 @@ the output is a PDF with the correct number of pages. They also make sure that
 bad input gets status 400, 413 or 415, and that the render step sends no
 network requests.
 
-`test.sh` is the script that GitHub Actions runs on Ubuntu 24.04. It installs
+`test.sh` is the test script for Ubuntu 24.04. It installs
 the emoji font, runs the tests and converts the two files in `examples/` with
 curl.
 

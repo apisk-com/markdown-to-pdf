@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# CI entry point: install everything, run the tests, then a curl smoke test.
+# Test entry point: install everything, run the tests, then a curl smoke test.
 set -euo pipefail
 cd "$(dirname "$0")"
 
