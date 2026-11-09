@@ -6,7 +6,11 @@ by step.
 
 ## Examples
 
-The list grows as the tutorials are published.
+| Folder | Language and tools | What it does | Tutorial |
+|---|---|---|---|
+| [nodejs-puppeteer](nodejs-puppeteer/) | Node.js, Express 5, markdown-it, highlight.js, Puppeteer | Markdown to PDF API: `POST /markdown` with print CSS and code highlighting; tests | [Markdown to PDF with Node.js: Build a Conversion API](https://apisk.com/blog/markdown-to-pdf-api/), 20 November 2026 |
+
+Each folder runs on its own: open its `README.md` for the commands.
 
 ## Add an example
 
